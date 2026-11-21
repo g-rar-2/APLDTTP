@@ -1,0 +1,7 @@
+{
+  "uuid": "kbdfx@kbdfx.local",
+  "name": "Animación del teclado (kbdfx)",
+  "description": "Botón en los ajustes rápidos para animar la luz del teclado ThinkPad con kbdfx.",
+  "shell-version": ["48", "49", "50", "51"],
+  "url": ""
+}
