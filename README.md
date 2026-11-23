@@ -25,6 +25,7 @@ Funciona en cualquier ThinkPad con teclado retroiluminado que use el driver `thi
 - [Menú](#menú)
 - [Botón en los ajustes rápidos](#botón-en-los-ajustes-rápidos-gnome)
 - [Modos](#modos)
+  - [Modo música](#modo-música)
 - [Opciones](#opciones)
 - [Arranque automático](#arranque-automático)
 - [Solución de problemas](#solución-de-problemas)
@@ -193,6 +194,34 @@ Además de estos, kbdfx incluye:
 - **Batería:** parpadea cuando la batería baja del umbral y no está cargando.
 - **Atenuado (experimental):** respiración suave con brillos intermedios.
 - **Logo de la tapa (`--logo`):** anima también el punto rojo del logo con cualquier modo.
+
+
+### Modo música
+
+La luz del teclado sigue el volumen de lo que suena en el equipo: Spotify, YouTube, un juego o cualquier otra cosa, por los parlantes o por los audífonos.
+
+**1. Instala `parec`** (una sola vez; funciona también con PipeWire):
+
+```bash
+sudo apt install pulseaudio-utils
+```
+
+**2. Actívalo** de una de estas formas:
+
+- **Botón de GNOME:** abre los ajustes rápidos, pulsa la flecha `>` de **Animación** y en **Modo** elige **Música**.
+- **Menú:** escribe `kbdfx` y elige la opción **9**. Pulsa Enter para dejar la sensibilidad normal.
+- **Comando:**
+  ```bash
+  kbdfx musica
+  ```
+
+**3. Pon algo a sonar.** Con sonido fuerte la luz se pone en alto, con sonido medio en bajo y en silencio se apaga. Se detiene con **Ctrl + C**.
+
+Si apenas reacciona, sube el volumen o aumenta la sensibilidad (cuanto **menor** es el número, **más** reacciona):
+
+```bash
+kbdfx musica -s 0.7
+```
 
 ---
 
