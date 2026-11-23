@@ -5,9 +5,11 @@
 Animaciones para la retroiluminación del teclado de las **Lenovo ThinkPad** en Linux: pulsos, respiración, latido, código Morse, reacción al teclear, ritmo de la música y alertas de batería.
 
 <!-- GIF PRINCIPAL: graba el teclado con varios modos y guárdalo como docs/gifs/demo.gif -->
+<!-- PENDIENTE: quita este comentario cuando tengas el GIF
 <p align="center">
   <img src="docs/gifs/demo.gif" alt="kbdfx en acción" width="600">
 </p>
+-->
 
 Funciona en cualquier ThinkPad con teclado retroiluminado que use el driver `thinkpad_acpi`. Se probó en la T480s; para comprobar la tuya, mira [Comprueba la compatibilidad](#comprueba-la-compatibilidad).
 
@@ -100,9 +102,11 @@ kbdfx
 Escribe `kbdfx` sin nada más, o abre **Luces del teclado** desde tus aplicaciones. Aparece un menú para elegir el modo con un número:
 
 <!-- GIF DEL MENÚ: graba la terminal eligiendo un modo y guárdalo como docs/gifs/menu.gif -->
+<!-- PENDIENTE: quita este comentario cuando tengas el GIF
 <p align="center">
   <img src="docs/gifs/menu.gif" alt="Menú de kbdfx" width="600">
 </p>
+-->
 
 ```
   kbdfx - luces del teclado ThinkPad
@@ -170,10 +174,26 @@ Requisitos: GNOME 48 a 51. Probado para Ubuntu 26.04 (GNOME 50). Después de ins
 
 ### Galería
 
-<!-- Reemplaza cada GIF por una grabación real del modo. Ruta sugerida: docs/gifs/<modo>.gif -->
+| Pulsar | Respirar |
+|:------:|:--------:|
+| <img src="docs/gifs/pulsar.gif" alt="Modo pulsar" width="300"> | <img src="docs/gifs/respirar.gif" alt="Modo respirar" width="300"> |
 
-| Pulsar | Respirar | Latido |
-|:------:|:--------:|:------:|
+| Latido | Onda |
+|:------:|:----:|
+| <img src="docs/gifs/latido.gif" alt="Modo latido" width="300"> | <img src="docs/gifs/onda.gif" alt="Modo onda" width="300"> |
+
+<!-- PENDIENTES: cuando tengas el GIF, muévelo fuera de este comentario.
+
+| Teclear | Eco | Música |
+|:-------:|:---:|:------:|
+| <img src="docs/gifs/teclear.gif" alt="Modo teclear" width="250"> | <img src="docs/gifs/eco.gif" alt="Modo eco" width="250"> | <img src="docs/gifs/musica.gif" alt="Modo música" width="250"> |
+
+| Morse | Logo de la tapa (`--logo`) | Atenuado (experimental) |
+|:-----:|:--------------------------:|:-----------------------:|
+| <img src="docs/gifs/morse.gif" alt="Modo morse" width="250"> | <img src="docs/gifs/logo.gif" alt="Punto rojo del logo animado" width="250"> | <img src="docs/gifs/atenuado.gif" alt="Modo atenuado" width="250"> |
+-->
+
+------:|:--------:|:------:|
 | <img src="docs/gifs/pulsar.gif" alt="Modo pulsar" width="250"> | <img src="docs/gifs/respirar.gif" alt="Modo respirar" width="250"> | <img src="docs/gifs/latido.gif" alt="Modo latido" width="250"> |
 
 | Teclear | Eco | Música |
