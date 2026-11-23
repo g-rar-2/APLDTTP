@@ -174,6 +174,8 @@ Requisitos: GNOME 48 a 51. Probado para Ubuntu 26.04 (GNOME 50). Después de ins
 
 ### Galería
 
+Algunos modos en acción:
+
 | Pulsar | Respirar |
 |:------:|:--------:|
 | <img src="docs/gifs/pulsar.gif" alt="Modo pulsar" width="300"> | <img src="docs/gifs/respirar.gif" alt="Modo respirar" width="300"> |
@@ -182,27 +184,15 @@ Requisitos: GNOME 48 a 51. Probado para Ubuntu 26.04 (GNOME 50). Después de ins
 |:------:|:----:|
 | <img src="docs/gifs/latido.gif" alt="Modo latido" width="300"> | <img src="docs/gifs/onda.gif" alt="Modo onda" width="300"> |
 
-<!-- PENDIENTES: cuando tengas el GIF, muévelo fuera de este comentario.
+Además de estos, kbdfx incluye:
 
-| Teclear | Eco | Música |
-|:-------:|:---:|:------:|
-| <img src="docs/gifs/teclear.gif" alt="Modo teclear" width="250"> | <img src="docs/gifs/eco.gif" alt="Modo eco" width="250"> | <img src="docs/gifs/musica.gif" alt="Modo música" width="250"> |
-
-| Morse | Logo de la tapa (`--logo`) | Atenuado (experimental) |
-|:-----:|:--------------------------:|:-----------------------:|
-| <img src="docs/gifs/morse.gif" alt="Modo morse" width="250"> | <img src="docs/gifs/logo.gif" alt="Punto rojo del logo animado" width="250"> | <img src="docs/gifs/atenuado.gif" alt="Modo atenuado" width="250"> |
--->
-
-------:|:--------:|:------:|
-| <img src="docs/gifs/pulsar.gif" alt="Modo pulsar" width="250"> | <img src="docs/gifs/respirar.gif" alt="Modo respirar" width="250"> | <img src="docs/gifs/latido.gif" alt="Modo latido" width="250"> |
-
-| Teclear | Eco | Música |
-|:-------:|:---:|:------:|
-| <img src="docs/gifs/teclear.gif" alt="Modo teclear" width="250"> | <img src="docs/gifs/eco.gif" alt="Modo eco" width="250"> | <img src="docs/gifs/musica.gif" alt="Modo música" width="250"> |
-
-| Morse | Logo de la tapa (`--logo`) | Atenuado (experimental) |
-|:-----:|:--------------------------:|:-----------------------:|
-| <img src="docs/gifs/morse.gif" alt="Modo morse" width="250"> | <img src="docs/gifs/logo.gif" alt="Punto rojo del logo animado" width="250"> | <img src="docs/gifs/atenuado.gif" alt="Modo atenuado" width="250"> |
+- **Teclear:** la luz se enciende al escribir y se apaga tras unos segundos sin teclear.
+- **Eco:** cada tecla da un destello que se desvanece.
+- **Música:** el brillo sigue el volumen de lo que suena.
+- **Morse:** escribe un texto en código Morse con la luz.
+- **Batería:** parpadea cuando la batería baja del umbral y no está cargando.
+- **Atenuado (experimental):** respiración suave con brillos intermedios.
+- **Logo de la tapa (`--logo`):** anima también el punto rojo del logo con cualquier modo.
 
 ---
 
